@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sa02Poo.RegraDeNegocio
 {
-    internal class Aplicativo3RN
+    public class Aplicativo3RN
     {
+        public int CalcularTotalAssentos(int qtdeAvioes)
+        {
+            return qtdeAvioes * 17;
+        }
     }
 }
